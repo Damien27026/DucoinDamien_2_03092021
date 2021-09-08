@@ -3,6 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/66a677a48f.js" crossorigin="anonymous"></script>
 		<title>Reservia - Menu</title>
 	</head>
@@ -10,14 +13,14 @@
 	<body>
 		<div id="bloc_page">
 			<header>
-				<div id="logo">
-					<img src="images/logo/Reservia@3x.png" alt="logo">
+				<div>
+					<img src="images/logo/Reservia@3x.png" alt="logo" id="logo">
 				</div>
 
 				<nav>
 					<ul>
-						<li><a href="#hebergement">Hébergement</a></li>
-						<li><a href="#activites">Activités</a></li>
+						<li><a href="#ancre_hebergement">Hébergement</a></li>
+						<li><a href="#ancre_activites">Activités</a></li>
 						<li id="inscription">S'inscrire</li>
 					</ul>
 				</nav>
@@ -55,7 +58,7 @@
 				<p id="information"><i class="fas fa-info blue"></i> Plus de 500 logements sont disponibles dans cette ville</p>
 			</div>
 
-			<section>
+			<section id="ancre_hebergement">
 				<h1>Hébergements à Marseille</h1>
 				<div id="hebergement">
 
@@ -101,6 +104,7 @@
 						<i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i>
 					</div>
 				</div>
+				<p id="bold">Afficher plus</p>
 
 				<aside id="relative">
 					<h1>Les plus populaires</h1>
@@ -131,7 +135,7 @@
 				</aside>
 			</section>
 
-			<section>
+			<section id="ancre_activites">
 				<h1>Activités à Marseille</h1>
 				<div id="activites">
 					<div id="column1">

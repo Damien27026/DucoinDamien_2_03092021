@@ -1,0 +1,62 @@
+/* bleu #0065FC / bleu clair #DEEBFF / gris #F2F2F2
+
+/* Styles globaux */
+body
+{
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    color:  #181818;
+}
+
+#bloc_page
+{
+    width: auto;
+    margin-left: 40px;
+}
+
+/* header */
+
+header
+{
+   display: flex;
+   justify-content: space-between;
+}
+
+#logo
+{
+    height: 45px;
+    margin: 25px 0 0 0;
+}
+
+/* nav */
+
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+}
+
+nav li
+{
+    margin: 15px 25px 0 25px;
+}
+
+nav a
+{
+    color: #181818;
+    text-decoration: none;
+}
+
+#inscription
+{
+    font-weight: bold;
+    color: #0065FC;
+}
+
+nav a:hover
+{
+    color: #0065FC;
+    border-top: solid #0065FC;
+    padding-top: 37px;
+}
+
