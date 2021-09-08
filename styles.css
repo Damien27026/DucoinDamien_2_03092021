@@ -14,6 +14,10 @@ body
     margin-left: 40px;
 }
 
+
+
+
+
 /* header */
 
 header
@@ -27,6 +31,9 @@ header
     height: 45px;
     margin: 25px 0 0 0;
 }
+
+
+
 
 /* nav */
 
@@ -60,3 +67,101 @@ nav a:hover
     padding-top: 37px;
 }
 
+
+
+
+/* recherche */
+
+#recherche h1
+{
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+#recherche h1 + p
+{
+    margin-top: 2px;
+}
+
+#zone_recherche, .filtre, #filtre
+{
+    font-weight: bold;
+}
+
+#zone_recherche
+{
+    display: flex;
+}
+
+.marker
+{
+    border: solid #F2F2F2;
+    padding: 13px 13px 13px 13px;
+    height: 15px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    background-color: #F2F2F2;
+    margin: merge;
+}
+
+#zone
+{
+  border-top: solid 2px #F2F2F2;
+  border-bottom: solid 2px #F2F2F2;
+  border-left: solid 2px #F2F2F2;
+  border-right: solid 2px #F2F2F2;
+  height: 39.8px;
+  width: 250px;
+}
+
+#zone_recherche p
+{
+    background-color: #0065FC;
+    padding: 11px 12px 15px 12px;
+    margin-top: 0px;
+    color: white;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+#filtre
+{
+    display: flex;
+}
+
+.filtre
+{
+    margin: 5px 20px;
+    border: solid 3px #F2F2F2;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+}
+
+.filtre i
+{
+    margin-right: 15px;
+    border: solid 3px #DEEBFF;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+
+
+#information
+{
+    display: flex;
+}
+
+#information i
+{
+    border: solid 2px #F2F2F2;
+    margin: 15px 10px 0 0;
+    padding: 4px 8px 4px 8px ;
+    height: 14px;
+    border-radius: 50%;
+    color: #0065FC;
+}
+
+#information p
+{
+    font-size: 1em;
+}
