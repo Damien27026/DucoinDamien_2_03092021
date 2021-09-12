@@ -6,15 +6,9 @@ body
     background-color: white;
     font-family: "Raleway", sans-serif;
     color:  #181818;
+    margin-left: 50px;
+    margin-top: 0px;
 }
-
-#bloc_page
-{
-    width: auto;
-    margin-left: 40px;
-}
-
-
 
 
 
@@ -28,8 +22,9 @@ header
 
 #logo
 {
-    height: 45px;
-    margin: 25px 0 0 0;
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 15px;
 }
 
 
@@ -41,11 +36,14 @@ nav ul
 {
     display: flex;
     list-style-type: none;
+    margin-right: 60px;
+    margin-top: 40px;
 }
 
-nav li
+nav a
 {
-    margin: 15px 25px 0 25px;
+    margin: 0 45px 0 0;
+    padding: 38px 15px 0 15px;
 }
 
 nav a
@@ -64,7 +62,6 @@ nav a:hover
 {
     color: #0065FC;
     border-top: solid #0065FC;
-    padding-top: 37px;
 }
 
 
@@ -111,7 +108,10 @@ nav a:hover
   border-left: solid 2px #F2F2F2;
   border-right: solid 2px #F2F2F2;
   height: 39.8px;
-  width: 250px;
+  width: 220px;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding-left: 10px;
 }
 
 #zone_recherche p
@@ -127,28 +127,50 @@ nav a:hover
 #filtre
 {
     display: flex;
+    margin-top: 5px;
+}
+
+#filtre p
+{
+    margin-right: 25px;
 }
 
 .filtre
 {
-    margin: 5px 20px;
+    display: flex;
+    position: relative;
+}
+
+.filtre p 
+{
+    margin: 5px 0px 0 25px;
     border: solid 3px #F2F2F2;
     border-radius: 25px;
-    padding: 10px 20px 10px 20px;
+    padding: 9px 10px 8px 40px;
 }
 
 .filtre i
 {
-    margin-right: 15px;
     border: solid 3px #DEEBFF;
     background-color: #DEEBFF;
     color: #0065FC;
+    border-radius: 100%;
+    padding: 12px 12px 12px 12px;
+    position: absolute;
+    top: 4px;
+    left: 15px;
 }
 
+.filtre p:hover
+{
+    background-color: #0065FC;
+    color: white;
+}
 
 #information
 {
     display: flex;
+    margin-top: 20px;
 }
 
 #information i
