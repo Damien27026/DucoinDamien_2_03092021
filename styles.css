@@ -6,7 +6,8 @@ body
     background-color: white;
     font-family: "Raleway", sans-serif;
     color:  #181818;
-    margin: 0;
+    width: 1440px;
+    margin: auto;
 }
 
 
@@ -18,7 +19,6 @@ body
 
 header
 {
-    margin: 0 50px 0 50px;
    display: flex;
    justify-content: space-between;
 }
@@ -42,7 +42,7 @@ nav ul
 {
     display: flex;
     list-style-type: none;
-    margin-right: 40px;
+    margin-right: 20px;
     margin-top: 40px;
 }
 
@@ -80,7 +80,6 @@ nav a:hover
 
 #recherche
 {
-    margin: 0 50px 0 50px;
 }
 
 #recherche h1
@@ -216,7 +215,6 @@ nav a:hover
 {
     display: flex;
     justify-content: space-between;
-    margin: 0 50px 0 50px;
 }
 
 .blue 
@@ -246,6 +244,11 @@ nav a:hover
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+#hebergement a
+{
+    color: black;
 }
 
 #hebergement h2
@@ -282,6 +285,7 @@ nav a:hover
     padding: 5px 5px 45px 5px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 
 }
 
@@ -311,6 +315,7 @@ aside
     height: 600px;
     position: relative;
 }
+
 aside img
 {
     height: 130px;
@@ -318,6 +323,7 @@ aside img
     padding: 5px 5px 5px 5px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    object-fit: cover;
 }
 
 aside h1
@@ -341,6 +347,7 @@ aside h1
     margin-bottom: 30px;
     border-radius: 20px;
     position: relative;
+    color: black;
 }
 
 .text_populaire
@@ -373,25 +380,220 @@ aside h1
 
 
 
+
+
 /* section 2 */
+
+#ancre_activites
+{
+    margin-top: 50px;
+}
 
 #activites
 {
+    display: flex;
+    margin-bottom: 60px;
 }
 
-#activites #test
+#activites div
 {
-    height: 300px;
+    height: 500px;
+    width: 330px;
+    border-radius: 25px;
 }
 
-#test
+#activites a
 {
+    color: black;
+}
 
-    clip: rect(50px, auto, 200px, auto);
+#column1
+{
+    position: relative;
+    margin-right: 40px;
+}
+
+#column1 img
+{
+    width: 330px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+#column1 p
+{
+    position: absolute;
+    top: 425px;
+    background-color: white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-weight: bold;
+    box-shadow: 0px 0px 2px grey;
+    padding: 20px 0 0 15px;
+    height: 42px;
+    width: 315px;
 }
 
 
 
+#column2
+{
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#c2_1
+{
+    margin-bottom: 50px;
+    height: 250px;
+    position: relative;
+}
+
+#c2_1 img
+{
+    height: 260px;
+    width: 330px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+#c2_1 p
+{
+    position: absolute;
+    top: 182px;
+    background-color: white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-weight: bold;
+    box-shadow: 0px 0px 2px grey;
+    padding: 20px 0 0 15px;
+    height: 42px;
+    width: 315px;
+
+}
+
+#c2_2
+{
+    position: relative;
+}
+
+#c2_2 img
+{
+    width: 330px;
+    height: 186px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+#c2_2 p
+{
+    position: absolute;
+    top: 112px;
+    background-color: white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-weight: bold;
+    box-shadow: 0px 0px 2px grey;
+    padding: 20px 0 0 15px;
+    height: 42px;
+    width: 315px;
+}
+
+
+#column3
+{
+    margin-right: 40px;
+    position: relative;
+}
+
+#column3 img
+{
+    object-fit: cover;
+    width: 330px;
+    height: 500px;
+    border-radius: 25px;
+}
+
+#column3 p
+{
+    position: absolute;
+    top: 425px;
+    background-color: white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-weight: bold;
+    box-shadow: 0px 0px 2px grey;
+    padding: 20px 0 0 15px;
+    height: 42px;
+    width: 315px;
+}
+
+#column4
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#c4_1
+{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#c4_1 img
+{
+    width: 330px;
+    height: 186px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+#c4_1 p
+{
+    position: absolute;
+    top: 112px;
+    background-color: white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-weight: bold;
+    box-shadow: 0px 0px 2px grey;
+    padding: 20px 0 0 15px;
+    height: 42px;
+    width: 315px;
+}
+
+#c4_2
+{
+    height: 250px;
+    position: relative;
+}
+
+#c4_2 img
+{
+    height: 260px;
+    width: 330px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+#c4_2 p
+{
+    position: absolute;
+    top: 182px;
+    background-color: white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-weight: bold;
+    box-shadow: 0px 0px 2px grey;
+    padding: 20px 0 0 15px;
+    height: 42px;
+    width: 315px;
+
+}
 
 
 /* FOOTER */
