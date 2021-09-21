@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="styles.css">
-		<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 480px)" href="petite_resolution.css">
+		<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 375px)" href="petite_resolution.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
@@ -19,9 +19,9 @@
 
 				<nav>
 					<ul>
-						<li><a href="#ancre_hebergement">Hébergement</a></li>
-						<li><a href="#ancre_activites">Activités</a></li>
-						<li id="inscription">S'inscrire</li>
+						<li id="ancre"><a href="#ancre_hebergement">Hébergement</a></li>
+						<li id="ancre"><a href="#ancre_activites">Activités</a></li>
+						<li id="inscription"><a href="">S'inscrire</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -34,25 +34,30 @@
 					<form method="post" action="traitement.php">
 						<input type="post" name="recheche" value="Marseille, France" id="zone">
 					</form>
-					<a href=""><p>Rechercher</p></a>
+					<a href="">
+						<i class="fas fa-search" id="loupe"></i>
+						<p>Rechercher</p>
+					</a>
 				</div>
 				<div id="filtre">
 					<p>Filtres</p>
-					<div class="filtre">
-						<p>Économique</p>
-						<i class="fas fa-money-bill-wave"></i>
-					</div>
-					<div class="filtre">
-						<p>Familial</p>
-						<i class="fas fa-child"></i>
-					</div>
-					<div class="filtre">
-						<p>Romantique</p>
-						<i class="fas fa-heart"></i>
-					</div>
-					<div class="filtre">
-						<p>Animaux autorisés</p>
-						<i class="fas fa-dog"></i>
+					<div id="choix_filtre">
+						<div class="filtre" id="eco">
+							<p>Économique</p>
+							<i class="fas fa-money-bill-wave"></i>
+						</div>
+						<div class="filtre" id="famille">
+							<p>Familial</p>
+							<i class="fas fa-child"></i>
+						</div>
+						<div class="filtre">
+							<p>Romantique</p>
+							<i class="fas fa-heart"></i>
+						</div>
+						<div class="filtre">
+							<p>Animaux autorisés</p>
+							<i class="fas fa-dog"></i>
+						</div>
 					</div>
 				</div>
 				<div id="information">

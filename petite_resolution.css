@@ -1,0 +1,158 @@
+body
+{
+	width: 375px;
+}
+
+
+
+
+
+
+/* header */
+
+header
+{
+	flex-direction: column;
+	margin: 20px 0 45px 0;
+	position: relative;
+}
+
+#logo
+{
+	margin: 0 0 25px 20px;
+}
+
+
+
+
+
+
+
+
+/* nav */
+
+nav, nav ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+#inscription
+{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+#ancre a
+{
+	margin: 0px;
+	padding: 0 59px 10px 44px;
+	border-bottom: solid #F2F2F2;
+}
+
+#ancre a[href="#ancre_hebergement"]
+{
+	margin-right: 2px;
+}
+
+#ancre a:hover
+{
+	border-bottom: solid #0065FC;
+	border-top: none;
+	color: #0065FC;
+}
+
+#inscription a:hover
+{
+	border-top: none;
+}
+
+
+
+
+
+
+
+/* recherche */
+
+#recherche
+{
+	margin-left: 20px;
+}
+
+#recherche h1
+{
+	margin-bottom: 10px;
+}
+
+#zone_recherche
+{
+	margin-top: 25px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+#zone
+{
+	width: 250px;
+}
+
+#zone_recherche p
+{
+	display: none;
+}
+
+#zone_recherche i[id="loupe"]
+{
+	display: inline;
+	position: absolute;
+	top: 0px;
+	left: 280px;
+	border-radius: 10px;
+	padding: 15px 15px 15px 15px;
+}
+
+#filtre
+{
+	flex-direction: column;
+}
+
+#filtre p
+{
+	margin: 10px 0 2px 0;
+}
+
+#choix_filtre
+{
+	flex-wrap: wrap;
+}
+
+#eco
+{
+	margin-right: 20px;
+}
+
+.filtre p
+{
+	padding-left: 50px;
+	padding-right: 15px;
+}
+
+.filtre i
+{
+	top: 10px;
+	left: 0px;
+	padding: 10px 10px 10px 10px;
+}
+
+#famille i
+{
+	padding: 10px 12px 10px 12px;
+}
+
+#information
+{
+	margin-top: 15px;
+	width: 360px;
+}

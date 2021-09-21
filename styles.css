@@ -48,19 +48,19 @@ nav ul
     margin-top: 40px;
 }
 
-nav a
+#ancre a
 {
     margin: 0 45px 0 0;
     padding: 38px 15px 0 15px;
 }
 
-nav a
+ a
 {
     color: #181818;
     text-decoration: none;
 }
 
-#inscription
+#inscription a
 {
     font-weight: bold;
     color: #0065FC;
@@ -140,6 +140,17 @@ nav a:hover
     border-bottom-right-radius: 13px;
 }
 
+#zone_recherche i[id="loupe"]
+{
+    display: none;
+    background-color: #0065FC;
+    padding: 11px 12px 15px 12px;
+    margin-top: 0px;
+    color: white;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
 #filtre
 {
     display: flex;
@@ -149,6 +160,11 @@ nav a:hover
 #filtre p
 {
     margin-right: 25px;
+}
+
+#choix_filtre
+{
+    display: flex;
 }
 
 .filtre
