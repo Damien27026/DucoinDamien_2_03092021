@@ -1,12 +1,3 @@
-body
-{
-	width: 375px;
-}
-
-
-
-
-
 
 /* header */
 
@@ -35,6 +26,7 @@ nav, nav ul
 {
 	margin: 0px;
 	padding: 0px;
+	width: 100%;
 }
 
 #inscription
@@ -44,16 +36,23 @@ nav, nav ul
 	right: 20px;
 }
 
-#ancre a
+#ancre
 {
-	margin: 0px;
-	padding: 0 59px 10px 44px;
-	border-bottom: solid #F2F2F2;
+	width: 50%;
 }
 
-#ancre a[href="#ancre_hebergement"]
+#ancre a
 {
-	margin-right: 2px;
+	display: inline-block;
+	width: 50%;
+	border-bottom: solid #F2F2F2;
+	margin: 0;
+	padding: 0 25% 10px 25%;
+}
+
+.marge
+{
+	margin-right: 3px;
 }
 
 #ancre a:hover
@@ -93,9 +92,13 @@ nav, nav ul
 	position: relative;
 }
 
+form
+{
+	width: 75%;
+}
 #zone
 {
-	width: 250px;
+	width: 100%;
 }
 
 #zone_recherche p
@@ -108,7 +111,6 @@ nav, nav ul
 	display: inline;
 	position: absolute;
 	top: 0px;
-	left: 280px;
 	border-radius: 10px;
 	padding: 15px 15px 15px 15px;
 }
@@ -154,5 +156,73 @@ nav, nav ul
 #information
 {
 	margin-top: 15px;
-	width: 360px;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+/* Section 1 */ 
+
+#ancre_hebergement
+{
+	flex-direction: column-reverse;
+	margin: 0px;
+}
+
+/* ASIDE */
+
+aside
+{
+	margin: 0 0 15px 0;
+	border-radius: 0px;
+	padding: 25px 15px 20px 15px;
+}
+
+aside h1
+{
+	font-size: 1.35em;
+}
+
+.fa-chart-line
+{
+	font-size: 1.5em;
+	right: 15px;
+}
+
+.populaires
+{
+	margin-bottom: 15px;
+}
+
+.text_populaire
+{
+	right: 0px;
+	left: 150px;
+	font-size: 0.8em;
+	width: 140px;
+}
+
+.text_populaire p
+{
+	margin-bottom: 45px;
+}
+
+/* HEBERGEMENT */
+
+#block_hebergement
+{
+	background-color: white;
+	border-radius: 0px;
+	margin: 0px;
+	padding: 0 20px 0 20px;
+}
+
+#block_hebergement h1
+{
+	font-size: 1em;
 }

@@ -6,7 +6,7 @@ body
     background-color: white;
     font-family: "Raleway", sans-serif;
     color:  #181818;
-    width: 1440px;
+    max-width: 1440px;
     margin: 0px;
 }
 
@@ -358,6 +358,7 @@ aside h1
     position: absolute;
     top: 35px;
     right: 35px;
+    font-size: 2em;
 
 }
 
