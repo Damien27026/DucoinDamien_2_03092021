@@ -132,7 +132,7 @@ form
 
 #eco
 {
-	margin-right: 20px;
+	margin-right: 15px;
 }
 
 .filtre p
@@ -197,6 +197,7 @@ aside h1
 .populaires
 {
 	margin-bottom: 15px;
+	border-radius: 25px;
 }
 
 .text_populaire
@@ -204,7 +205,8 @@ aside h1
 	right: 0px;
 	left: 150px;
 	font-size: 0.8em;
-	width: 140px;
+	width: auto;
+	border-radius: 20px;
 }
 
 .text_populaire p
@@ -224,5 +226,105 @@ aside h1
 
 #block_hebergement h1
 {
+	font-size: 1.2em;
+}
+
+.choix_hebergement
+{
+	margin-right: 0;
+}
+
+.choix_hebergement img
+{
+	width: 100%;
+	padding: 0;
+}
+
+.text_hebergement
+{
+	padding: 0 0 10px 3%;
+	width: 97%;
+	box-shadow: 0 0 2px grey;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+#hebergement a
+{
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+/* ACTIVITES */
+
+#ancre_activites
+{
+	margin: 0 15px 15px 15px
+}
+
+#activites
+{
+	flex-direction: column;
+	height: 975px;
+	margin: 0;
+}
+
+#activites div
+{
+	width: 100%;
+	margin: 0;
+	height: 190px;
+}
+
+#activites img
+{
+	height: 150px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+#activites p
+{
+	top: 95px;
+	width: 95%;
+	padding: 20px 0 0 5%;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+footer
+{
+	flex-direction: column;
+}
+
+footer div
+{
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+footer li
+{
+	font-size: 0.9em;
+	margin-bottom: 13px;
+}
+
+footer h2
+{
 	font-size: 1em;
+}
+
+#a_propos
+{
+	margin-top: 25px;
 }
