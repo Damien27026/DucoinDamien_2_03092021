@@ -1,0 +1,272 @@
+/* HEADER */
+header
+{
+	flex-direction: column;
+	margin: 20px 0 45px 0;
+	position: relative;
+}
+
+#logo
+{
+	margin: 0 0 25px 20px;
+}
+
+
+
+
+
+
+
+
+/* nav */
+
+nav, nav ul
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+#inscription
+{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+#ancre
+{
+	width: 50%;
+}
+
+#ancre a
+{
+	display: inline-block;
+	width: 50%;
+	border-bottom: solid #F2F2F2;
+	margin: 0;
+	padding: 0 25% 10px 35%;
+}
+
+.marge
+{
+	margin-right: 65px;
+}
+
+#ancre a:hover
+{
+	border-bottom: solid #0065FC;
+	border-top: none;
+	color: #0065FC;
+}
+
+#inscription a:hover
+{
+	border-top: none;
+}
+
+
+
+
+
+
+
+
+
+/* RECHERCHE */
+
+#filtre
+{
+	flex-direction: column;
+}
+
+#choix_filtre
+{
+	flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+/* SECTION 1 */
+
+#ancre_hebergement
+{
+	flex-direction: column-reverse;
+	margin:  0 10px 0 10px;
+}
+
+/* ASIDE */
+
+.text_populaire
+{
+	width: 35%;
+}
+
+.populaires img
+{
+	width: 45%;
+}
+
+
+
+/* HEBERGEMENT */
+
+#block_hebergement
+{
+	background-color: white;
+	border-radius: 0px;
+	margin: 0px;
+	padding: 0 0px 0 0px;
+}
+
+#block_hebergement h1
+{
+	font-size: 1.2em;
+	padding-left: 20px;
+}
+
+#hebergement
+{
+	flex-direction: row;
+}
+
+.choix_hebergement
+{
+	margin-right: 0;
+	width: 100%;
+}
+
+.choix_hebergement img
+{
+	width: 100%;
+	padding: 0;
+}
+
+.text_hebergement
+{
+	padding: 0 0 10px 3%;
+	width: 97%;
+	box-shadow: 0 0 2px grey;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+#hebergement a
+{
+	width: 48%;
+	margin-bottom: 30px;
+	margin-right: 1px;
+}
+
+
+
+
+
+
+
+
+/* ACTIVITES */
+
+#ancre_activites
+{
+	margin: 0 15px 15px 15px
+}
+
+#activites
+{
+	flex-direction: column;
+	height: 765px;
+	margin: 0;
+}
+
+#activites div
+{
+	width: 100%;
+	height: 190px;
+}
+
+#column2, #column4
+{
+	flex-direction: row;
+}
+
+#c2_1, #c4_1
+{
+	margin-right: 10px;
+}
+
+#c2_1 a, #c2_2 a, #c4_1 a, #c4_2 a
+{
+	display: inline-block;
+	width: 100%;
+}
+
+#column1 img, #column3 img
+{
+	height: 150px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+#column2 img, #column4 img
+{
+	height: 150px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+#column1 p, #column3 p
+{
+	top: 95px;
+	width: 95%;
+	padding: 20px 0 0 5%;
+}
+
+#column2 p, #column4 p
+{
+	top: 95px;
+	width: 95%;
+	padding: 20px 0 0 5%;
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer
+{
+	flex-wrap: wrap;
+}
+
+footer div
+{
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+footer li
+{
+	font-size: 0.9em;
+	margin-bottom: 13px;
+}
+
+footer h2
+{
+	font-size: 1em;
+}
+
+#a_propos, #nos_hebergements, #assitance
+{
+	margin-top: 25px;
+}
