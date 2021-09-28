@@ -154,6 +154,7 @@ nav a:hover
 #filtre
 {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 5px;
 }
 
@@ -165,6 +166,7 @@ nav a:hover
 #choix_filtre
 {
     display: flex;
+    flex-wrap: wrap;   
 }
 
 .filtre
@@ -234,6 +236,7 @@ nav a:hover
 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -270,6 +273,7 @@ nav a:hover
 #hebergement a
 {
     color: black;
+    width: 33%;
 }
 
 #hebergement h2
@@ -302,7 +306,7 @@ nav a:hover
 .choix_hebergement img
 {
     height: 140px;
-    width: 240px;
+    width: 96%;
     padding: 5px 5px 45px 5px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -315,7 +319,7 @@ nav a:hover
     position: absolute;
     top: 120px;
     padding-left: 15px;
-    width: 230px;
+    width: 92%;
     background-color: white;
 }
 
@@ -340,7 +344,7 @@ aside
 aside img
 {
     height: 130px;
-    width: 180px;
+    width: 35%;
     padding: 5px 5px 5px 5px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -351,6 +355,7 @@ aside h1
 {
     font-size: 1.6em;
     margin-top: 10px;
+    width: 81%;
 }
 
 .fa-chart-line
@@ -378,9 +383,9 @@ aside h1
     flex-direction: column;
     background-color: white;
     position: absolute;
-    right: 55px;
+    right: 7px;
     height: 140px;
-    width: 190px;
+    width: 56%;
     padding: 0 0 0 20px;    
 }
 
@@ -422,7 +427,6 @@ aside h1
 #activites div
 {
     height: 500px;
-    width: 307px;
     border-radius: 25px;
 }
 
@@ -434,12 +438,13 @@ aside h1
 #column1
 {
     position: relative;
+    width: 22.5%;
     margin-right: 40px;
 }
 
 #column1 img
 {
-    width: 321px;
+    width: 100%;
     height: 500px;
     object-fit: cover;
     border-radius: 25px;
@@ -454,9 +459,9 @@ aside h1
     border-bottom-right-radius: 25px;
     font-weight: bold;
     box-shadow: 0px 0px 2px grey;
-    padding: 20px 0 0 15px;
+    padding: 20px 0 0 6%;
     height: 42px;
-    width: 306px;
+    width: 94%;
 }
 
 
@@ -465,6 +470,7 @@ aside h1
 {
     margin-right: 40px;
     display: flex;
+    width: 22.5%;
     flex-direction: column;
 }
 
@@ -474,13 +480,14 @@ aside h1
 {
     margin-bottom: 50px;
     height: 250px;
+    width: 100%;
     position: relative;
 }
 
 #c2_1 img
 {
     height: 260px;
-    width: 321px;
+    width: 100%;
     object-fit: cover;
     border-radius: 25px;
 }
@@ -494,20 +501,20 @@ aside h1
     border-bottom-right-radius: 25px;
     font-weight: bold;
     box-shadow: 0px 0px 2px grey;
-    padding: 20px 0 0 15px;
+    padding: 20px 0 0 6%;
     height: 42px;
-    width: 306px;
-
+    width: 94%;
 }
 
 #c2_2
 {
     position: relative;
+    width: 100%;
 }
 
 #c2_2 img
 {
-    width: 321px;
+    width: 100%;
     height: 186px;
     object-fit: cover;
     border-radius: 25px;
@@ -522,9 +529,9 @@ aside h1
     border-bottom-right-radius: 25px;
     font-weight: bold;
     box-shadow: 0px 0px 2px grey;
-    padding: 20px 0 0 15px;
+    padding: 20px 0 0 6%;
     height: 42px;
-    width: 306px;
+    width: 94%;
 }
 
 
@@ -532,12 +539,13 @@ aside h1
 {
     margin-right: 40px;
     position: relative;
+    width: 22.5%;
 }
 
 #column3 img
 {
     object-fit: cover;
-    width: 321px;
+    width: 100%;
     height: 500px;
     border-radius: 25px;
 }
@@ -551,14 +559,15 @@ aside h1
     border-bottom-right-radius: 25px;
     font-weight: bold;
     box-shadow: 0px 0px 2px grey;
-    padding: 20px 0 0 15px;
+    padding: 20px 0 0 6%;
     height: 42px;
-    width: 306px;
+    width: 94%;
 }
 
 #column4
 {
     display: flex;
+    width: 22.5%;
     flex-direction: column;
 }
 
@@ -566,11 +575,12 @@ aside h1
 {
     position: relative;
     margin-bottom: 50px;
+    width: 100%;
 }
 
 #c4_1 img
 {
-    width: 321px;
+    width: 100%;
     height: 186px;
     object-fit: cover;
     border-radius: 25px;
@@ -585,21 +595,22 @@ aside h1
     border-bottom-right-radius: 25px;
     font-weight: bold;
     box-shadow: 0px 0px 2px grey;
-    padding: 20px 0 0 15px;
+    padding: 20px 0 0 6%;
     height: 42px;
-    width: 306px;
+    width: 94%;
 }
 
 #c4_2
 {
     height: 250px;
+    width: 100%;
     position: relative;
 }
 
 #c4_2 img
 {
     height: 260px;
-    width: 321px;
+    width: 100%;
     object-fit: cover;
     border-radius: 25px;
 }
@@ -613,10 +624,9 @@ aside h1
     border-bottom-right-radius: 25px;
     font-weight: bold;
     box-shadow: 0px 0px 2px grey;
-    padding: 20px 0 0 15px;
+    padding: 20px 0 0 6%;
     height: 42px;
-    width: 306px;
-
+    width: 94%;
 }
 
 
@@ -625,6 +635,7 @@ aside h1
 footer
 {
     display: flex;
+    flex-wrap: wrap;
     background-color: #F2F2F2;
     margin: 0px;
 }
@@ -632,7 +643,7 @@ footer
 footer div
 {
     margin-right: 200px;
-    padding: 30px 0 50px 10px;
+    padding: 30px 0 0px 10px;
 }
 
 footer ul
@@ -651,4 +662,14 @@ footer li
     font-size: 1.1em;
     margin-left: 0;
     margin-bottom: 10px;
+}
+
+#a_propos
+{
+    margin-bottom: 20px;
+}
+
+#assitance
+{
+    margin-bottom: 20px;
 }
