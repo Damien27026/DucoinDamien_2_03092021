@@ -105,7 +105,8 @@ nav, nav ul
 
 .text_populaire
 {
-	width: 35%;
+	width: 49%;
+	right: 50px;
 }
 
 .populaires img

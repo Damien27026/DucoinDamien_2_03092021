@@ -203,10 +203,11 @@ aside h1
 .text_populaire
 {
 	right: 0px;
-	left: 150px;
+	left: 130px;
 	font-size: 0.8em;
 	width: auto;
-	border-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
 }
 
 .text_populaire p
