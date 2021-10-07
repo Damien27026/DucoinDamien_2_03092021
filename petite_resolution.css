@@ -36,12 +36,12 @@ nav, nav ul
 	right: 20px;
 }
 
-#ancre
+.ancre
 {
 	width: 50%;
 }
 
-#ancre a
+.ancre a
 {
 	display: inline-block;
 	width: 50%;
@@ -50,12 +50,12 @@ nav, nav ul
 	padding: 0 25% 10px 25%;
 }
 
-.marge
+#marge
 {
 	margin-right: 3px;
 }
 
-#ancre a:hover
+.ancre a:hover
 {
 	border-bottom: solid #0065FC;
 	border-top: none;
