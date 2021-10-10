@@ -7,7 +7,7 @@ body
     font-family: "Raleway", sans-serif;
     color:  #181818;
     max-width: 1440px;
-    margin: 0px;
+    margin: auto;
 }
 
 
@@ -354,7 +354,7 @@ aside img
     object-fit: cover;
 }
 
-aside h1
+aside h2
 {
     font-size: 1.6em;
     margin-top: 10px;

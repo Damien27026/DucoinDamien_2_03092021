@@ -183,7 +183,7 @@ aside
 	padding: 25px 15px 20px 15px;
 }
 
-aside h1
+aside h2
 {
 	font-size: 1.35em;
 }
@@ -225,7 +225,7 @@ aside h1
 	padding: 0 20px 0 20px;
 }
 
-#block_hebergement h1
+#block_hebergement h2
 {
 	font-size: 1.2em;
 }

@@ -34,12 +34,12 @@ nav, nav ul
 	right: 20px;
 }
 
-.ancre
+#ancre
 {
 	width: 50%;
 }
 
-.ancre a
+#ancre a
 {
 	display: inline-block;
 	width: 50%;
@@ -48,12 +48,12 @@ nav, nav ul
 	padding: 0 25% 10px 35%;
 }
 
-#marge
+.marge
 {
 	margin-right: 65px;
 }
 
-.ancre a:hover
+#ancre a:hover
 {
 	border-bottom: solid #0065FC;
 	border-top: none;
@@ -126,9 +126,9 @@ nav, nav ul
 	padding: 0 0px 0 0px;
 }
 
-#block_hebergement h1
+#titre
 {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	padding-left: 20px;
 }
 
